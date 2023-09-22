@@ -4,5 +4,5 @@ n = int(input("Enter how many terms : "))
 count = 1
 
 for i in range(a, a + (d * n), d):
-    print(i)
+    print(i, end = " ")
 
